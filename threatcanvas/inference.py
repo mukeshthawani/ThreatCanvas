@@ -188,5 +188,7 @@ def main():
         print(f"Error during classification: {e}")
         return
 
+"""
 if __name__ == "__main__":
     main()
+"""

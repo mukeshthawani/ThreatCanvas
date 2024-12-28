@@ -32,7 +32,9 @@ def get_response(df, verbose=False, agent_type=AgentType.OPENAI_FUNCTIONS, allow
     )
     return agent
 
+"""
 if __name__ == "__main__":
     df = pd.read_csv("data/Linux.csv")
     agent = get_response(df, verbose=True)
     print(agent.run("how many rows are in the data?"))
+"""
