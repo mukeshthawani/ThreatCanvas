@@ -90,46 +90,6 @@ def initialize_agent(file_path):
         return None, None
 
 
-def display_periodic_summary(df):
-    """Display periodic summary analysis of log data."""
-    analyzer = LogAnalyzer(df)
-    
-    # Display metrics
-    metrics = analyzer.analyze_traffic_patterns()
-    col1, col2, col3, col4 = st.columns(4)
-    
-    with col1:
-        st.metric("Total Requests", metrics['total_requests'])
-    with col2:
-        st.metric("Requests/Minute", metrics['requests_per_minute'])
-    with col3:
-        st.metric("Error Rate", f"{metrics['error_rate']:.1f}%")
-    with col4:
-        st.metric("Success Rate", f"{metrics['success_rate']:.1f}%")
-        
-    # Display status distribution chart
-    st.plotly_chart(analyzer.create_status_distribution_chart(), use_container_width=True)
-    
-    # Add filters for data exploration
-    st.subheader("Log Data Explorer")
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        status_filter = st.multiselect(
-            "Filter by Status Code",
-            options=sorted(df['status'].unique())
-        )
-    with col2:
-        method_filter = st.multiselect(
-            "Filter by HTTP Method",
-            options=sorted(df['method'].unique())
-        )
-    with col3:
-        path_search = st.text_input("Search in Path")
-        
-    # Display filtered data
-    filtered_df = analyzer.get_filtered_data(status_filter, method_filter, path_search)
-    st.dataframe(filtered_df, use_container_width=True)
-
 def main():
     with st.sidebar:
         st.title("Configuration")
