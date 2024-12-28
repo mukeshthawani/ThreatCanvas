@@ -10,7 +10,7 @@ class LogProcessor:
     def __init__(self, csv_path: str):
         self.csv_path = csv_path
         self.current_index = 0
-        self.batch_size = 2
+        self.batch_size = 30
         
     def get_next_batch(self) -> pd.DataFrame:
         """Read next batch of logs from CSV"""
