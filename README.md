@@ -43,7 +43,7 @@ ThreatCanvas is an advanced real-time log analysis and threat detection system p
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/lucifertrj/ThreatCanvas.git
+git clone https://github.com/mukeshthawani/ThreatCanvas
 cd ThreatCanvas
 ```
 
