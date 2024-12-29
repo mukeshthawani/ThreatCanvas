@@ -1,8 +1,10 @@
-# ThreatCanvas 🛡️
+<div align="center">
+<h1>ThreatCanvas 🛡️</h1>
+<video src="assets/threatcanvas.mp4" autoplay loop muted></video>
+</div>
+
 
 ThreatCanvas is an advanced real-time log analysis and threat detection system powered by AI. It combines long-term memory capabilities with LLM reasoning to provide intelligent insights into your system's security landscape.
-
-
 
 ## 🌟 Key Features
 
