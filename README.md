@@ -2,9 +2,11 @@
 
 ThreatCanvas is an advanced real-time log analysis and threat detection system powered by AI. It combines long-term memory capabilities with LLM reasoning to provide intelligent insights into your system's security landscape.
 
-![ThreatCanvas Dashboard](assets/dashboard.png)
+
 
 ## 🌟 Key Features
+
+![ThreatCanvas Dashboard](assets/dashboard.png)
 
 ### 🔄 Real-time Monitoring
 - **Live Threat Detection**: Continuous monitoring with AI-powered analysis
@@ -78,6 +80,8 @@ LogHub: https://github.com/logpai/loghub?tab=readme-ov-file
 
 ## 🏗️ Architecture
 
+![Architecture Workflow](assets/workflow.png)
+
 ThreatCanvas is built with a modular architecture:
 
 - **Memory Module**: Handles long-term storage and retrieval of threat patterns
@@ -85,26 +89,6 @@ ThreatCanvas is built with a modular architecture:
 - **Log Analyzer**: Performs detailed analysis of log patterns
 - **Query Agent**: Handles natural language processing for log queries
 - **Visualization Engine**: Generates interactive charts and graphs
-
-## 💡 Advanced Features
-
-### Pattern Recognition
-- Utilizes advanced LLM models for threat detection
-- Maintains context across analysis sessions
-- Learns from historical patterns
-
-### Analysis Capabilities
-- HTTP status code distribution analysis
-- Traffic pattern anomaly detection
-- User agent legitimacy verification
-- Request frequency monitoring
-- Path access pattern analysis
-
-### Visualization
-- Interactive dashboards
-- Real-time metrics display
-- Custom query visualizations
-- Historical trend analysis
 
 ## 🤝 Contributing
 
