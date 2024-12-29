@@ -1,5 +1,3 @@
-from langchain_openai import AzureChatOpenAI
-from threatcanvas.config import Configure
 from threatcanvas.client import LLMClient
 from langchain.agents.agent_types import AgentType
 from langchain_experimental.agents import create_pandas_dataframe_agent
