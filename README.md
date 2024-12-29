@@ -37,6 +37,7 @@ ThreatCanvas is an advanced real-time log analysis and threat detection system p
 - Python 3.8+
 - Azure OpenAI API key
 - Mem0 API key for long-term memory storage
+- AWS access key and secret access key for Anthropic Sonnet model from AWS Bedrock.
 
 ### Installation
 
@@ -106,6 +107,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Langchain for Agentic workflow and prompt wrappers
 - Mem0 for long-term memory storage
 - Streamlit for the interactive interface
+- AWS Bedrock for periodic summary
 
 ## 📞 Support
 
