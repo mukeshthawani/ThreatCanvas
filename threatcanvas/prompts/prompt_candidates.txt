@@ -8,4 +8,3 @@ Create log templates from the raw logs by replacing dynamic segments with *.
 - Error Rate (status)
 - Unique IPs 
 - Detected Patterns (Reasoning + Classification)
-
